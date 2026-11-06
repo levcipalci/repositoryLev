@@ -117,7 +117,7 @@ obliki magičnega kvadrata reda 3. Ta je v bistvu enak kot kvadrat
 Lo Shu, vendar je vsako število povečano za 19.
 
 Z magičnimi kvadrati so se ukvarjali tudi najbolj znani matematiki kot na
-primer Euler, glej [3]. % ključ: euler
+primer Euler, glej \cite{euler}. % ključ: euler
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -164,14 +164,14 @@ in zato kvadrat ni normalen.
       % oznaka: eq:mc
       % Okolje `equation` je že prikazni matematični način,
       % zato tu izraz vpišite brez `\[` in `\]`.
-      !!
+      %!!
    \end{equation}
 \end{izrek}
 
 \begin{proof}
    V normalnem magičnem kvadratu reda \(n\) je vsota vseh nastopajočih
    števil (glej (1) na strani 2) enaka
-   $1+2+3+ \dots + n^2 = \sum_{k=1}^{n^2}k = 1/2. Ker imamo
+   $1+2+3+ \dots + n^2 = \sum_{k=1}^{n^2}k = \frac{1}{2}n^2(n^2+1)$. Ker imamo
    v kvadratu \(n\) vrstic z enako vsoto, je vsota števil v eni vrstici
    enaka številu \(M_2(n)\). % sklica: eq:numbers, eq:numbers
 \end{proof}
@@ -206,11 +206,11 @@ Preprost račun pokaže, da je konstanti (2) analogna konstanta
 % Konec tabele
 
 Vse normalne magične kvadrate reda 4 je oštevilčil Frénicle de Bessy
-leta 1693, glej [2], in jih je moč najti v knjigi [1]
+leta 1693, glej \cite{bessy}, in jih je moč najti v knjigi \cite{berlekamp}
 iz leta 1982. Število normalnih kvadratov reda 5 je izračunal
-R. Schroeppel leta 1973 (glej Gardner [4]).
+R. Schroeppel leta 1973 (glej Gardner \cite{gardner}).
 Natančno število vseh različnih normalnih magičnih kvadratov reda 6 ni znano.
-Avtorja navedenega približka sta Pinn in Wieczerkowski (glej [5]), ki
+Avtorja navedenega približka sta Pinn in Wieczerkowski (glej \cite{pinn}), ki
 sta za oceno uporabila simulacijo Monte Carlo in metode statistične mehanike.
  % ključi: bessy, berlekamp, gardner, pinn
 
@@ -219,7 +219,8 @@ sta za oceno uporabila simulacijo Monte Carlo in metode statistične mehanike.
 \newpage
 
 % Tu vstavite bibliografijo
-
+\bibliographystyle{siam}
+\bibliography{magic}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}
