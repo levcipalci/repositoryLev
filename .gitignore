@@ -1,11 +1,22 @@
+# VSCode uporabniške nastavitve
+.vscode/
+
+# LaTeX
 *.aux
-*.fdb_latexmk
-*.pdf
-*.fls
-*.log
-*.out
-*.synctex.gz
-!*-resitev.pdf
-*.toc
 *.bbl
 *.blg
+*.fdb_latexmk
+*.toc
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.nav
+*.out
+*.pdf
+*.pyc
+*.snm
+*.synctex.gz
+!*-resitev.pdf
+!slika.pdf
